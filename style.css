@@ -1,0 +1,121 @@
+
+
+.navigationBar{
+    background-color: #e9e9e95e;
+}
+
+/* #homePage{
+    background-image: url(images/chytiris/chyt.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:bottom; 
+}
+ */
+
+
+@media only screen and (max-width: 600px)  {
+    #homePage{
+        background-image: url(images/chytiris/chyt.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:  center;
+
+    }
+    #homePage .container-fluid{
+        height: 50vh;
+        
+    }
+    .welcomeText{
+        font-family: 'Solitreo', cursive;
+        font-size:  2em;
+        color:#ffff;
+        font-weight: lighter;
+    
+    }
+
+    .nostos-text{
+    font-weight: bold;
+    font-family: 'Solitreo', cursive;
+    color:#f1f1f1
+    }
+
+    #aboutUs .container{
+        height: 50vh;
+        overflow: auto;
+        
+    }
+    #gallery button{
+        color: #1A7997;
+        font-weight:lighter;
+
+    }
+    img{
+        height: min-content;
+    }
+    
+    #contact .contact-text{
+        color: #1A7997;
+        font-weight:lighter;
+font-family: 'Solitreo', cursive;
+    }
+
+
+}
+
+
+
+.fs-1.text-center{
+color: #1A7997;
+font-weight:lighter;
+font-family: 'Solitreo', cursive;
+}
+
+.navText{
+    font-family: 'Sarina',cursive;
+    color:#1A7997
+}
+.nav-link.active:active{
+    color: #1A7997;
+}
+
+
+
+
+.backgroundFooter{
+    background-color: black;
+    color: white;
+}
+
+.aboutUsText{
+    color: #1A7997;
+    font-family:'Solitreo', cursive;
+}
+
+.nav-link{
+    color: #1A7997;
+}
+.nav-link.active{
+    font-weight: bold;
+    color: #1A7997 !important;
+}
+
+.navText:hover{
+    color:#1A7997;
+    font-weight: bolder;
+}
+
+.nav-link:hover{
+    color:#1A7997;
+    font-weight: bolder;
+}
+
+#gallery{
+    background-color: #f1f1f1;
+}
+
+#aboutUs{
+    background-color: #e9e9e95e;
+    height: 50vh;
+}
+
+
