@@ -15,7 +15,7 @@
 
 @media only screen and (max-width: 600px)  {
     #homePage{
-        background-image: url(images/chytiris/chyt.jpg);
+        background-image: url(images/chyt.jpg);
         background-repeat: no-repeat;
         background-size:cover;
         background-position:  center;
@@ -58,7 +58,17 @@
         font-weight:lighter;
 font-family: 'Solitreo', cursive;
     }
+    img{
+        border-radius: 5%;
+      
+    }
+    img:hover{
+       
+        transform: scale(1.2);
+        
 
+    }
+    
 
 }
 
@@ -117,5 +127,4 @@ font-family: 'Solitreo', cursive;
     background-color: #e9e9e95e;
     height: 50vh;
 }
-
 
