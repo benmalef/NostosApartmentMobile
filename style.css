@@ -22,7 +22,7 @@
 
     }
     #homePage .container-fluid{
-        height: 50vh;
+        height: 50%;
         
     }
     .welcomeText{
@@ -40,10 +40,20 @@
     }
 
     #aboutUs .container{
-        height: 50vh;
+        height: 100%;
         overflow: auto;
+        margin: 0px;
+    }
+
+    #aboutUs img{
+        height: 100px;
+        width: 100px;
+        float: left;
+        shape-outside: circle(50%);
+        object-fit: cover;
         
     }
+   
     #gallery button{
         color: #1A7997;
         font-weight:lighter;
@@ -62,11 +72,10 @@ font-family: 'Solitreo', cursive;
         border-radius: 5%;
       
     }
-    img:hover{
+    #gallery img:hover{
        
-        transform: scale(1.2);
+        /* transform: scale(1.2); */
         
-
     }
     
 
