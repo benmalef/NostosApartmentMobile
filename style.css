@@ -158,7 +158,7 @@ footer{
         background-position:  bottom right;
     }
     #homePage .container-fluid{
-        height: 90vh;
+        height: 95vh;
     }
     .welcomeText{
         font-family: 'Solitreo', cursive;
@@ -168,6 +168,7 @@ footer{
     }
 
    #aboutUs{
+
     line-height: 1.8rem;
    }
 
@@ -191,10 +192,32 @@ footer{
     #gallery .desktop-gallery{
         display: block;
     }
-    #facilities img{
-        transform: scale(1.2);
-       
+
+    #facilities .benmalef{
+        width: 150px;
+        height: 150px;
+        background-color: #1A7997;
     }
+  
 
  
 }
+#galleryPage{
+    margin-top: 5rem;
+}
+
+#galleryPage .grid-container{
+display: grid;
+/* grid-template-columns: 1fr 1fr 1fr ; */
+grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+gap:10px;
+justify-content: center;
+}
+#galleryPage img{
+    height: 300px;
+    width: 100%;
+}
+#galleryPage img:hover{
+    transform: scale(1.02);
+}
+
