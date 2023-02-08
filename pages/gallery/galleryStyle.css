@@ -1,0 +1,21 @@
+#galleryPage{
+    margin-top: 5rem;
+}
+
+#galleryPage .grid-container{
+display: grid;
+/* grid-template-columns: 1fr 1fr 1fr ; */
+grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+gap:10px;
+justify-content: center;
+}
+
+
+#galleryPage img{
+    height: 300px;
+    width: 100%;
+}
+#galleryPage img:hover{
+    transform: scale(1.02);
+}
+
